@@ -10,13 +10,13 @@ config = {
         "max_length": 200,
         "emb_file_path": './emb/',
         "sentence_sep": '#@문장구분#',
-        "evaluator": ["evaluator1_score_" , "evaluator2_score_"],
+        "evaluators": ["evaluator1_score_" , "evaluator2_score_"],
         "rubric": ["con1", "con2", "con3", "con4", "con5", "org1", "org2", "exp1", "exp2"],
         "num_range": 5
     },
     "aihub_v1":{
         "model_path" : "./model/aihub_v1_model.pth",
-        "prompt_key": "essay_main_subject",
+        "prompt_key": "essay_prompt",
         "dataset_path": "./aihub_v1/dataset.csv",
         "essay_key": "essay",
         "max_length": 400,

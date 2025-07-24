@@ -59,7 +59,7 @@ if __name__ == "__main__":
     model = get_kobert_model().to(device)
     tokenizer = get_tokenizer()
 
-    args = config["nikl"]  # Change to "aihub_v1" for the other dataset
+    args = config["aihub_v1"]  # Change to "aihub_v1" for the other dataset
     essays = get_essay_dataset(args)
     print(essays[0])
     embedding(model,tokenizer,essays,args)
