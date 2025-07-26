@@ -1,7 +1,9 @@
 
 
 config = {
-    "is_topic_label": False,  # Set to True if you want to include topic labels in the essays
+    "is_topic_label": True,  # Set to True if you want to include topic labels in the essays
+    "result_path": './results/',
+    "mode" : "baseline",  # Change to "without-topic-label" if you want to exclude topic labels
     "nikl":{
         "model_path" : "./model/nikl_model.pth",
         "prompt_key": "prompt_con",
