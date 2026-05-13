@@ -1,0 +1,9 @@
+torch
+transformers
+kobert-transformers
+numpy
+pandas
+dask[dataframe]
+scikit-learn
+psutil
+tqdm
